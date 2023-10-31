@@ -1,0 +1,9 @@
+.flexbox{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; 
+}

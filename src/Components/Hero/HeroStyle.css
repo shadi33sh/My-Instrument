@@ -1,0 +1,41 @@
+.hero{
+    background-size: cover;
+    height: 800px;
+    background-position: 0px 80px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.text{
+    position: fixed;
+    z-index: 0;
+    transform: translateY(130%);
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+.text h1{
+    padding-bottom: 40px;
+}
+.text .paragraph{
+    padding-bottom: 40px;
+}
+.hero img{
+    padding-top: 30px ;
+    max-width: 250px;
+}
+.hero .btn{
+    padding: 10px;
+    border: none;
+    font-size:19px ;
+    border-radius:10px ;
+    background-image: linear-gradient(rgba(0, 92, 92, 0.735),rgba(17, 143, 152, 0.096));
+}
+
+@media screen and (max-width : 960px){
+  .text{
+    width: 80%;
+    transform: translate(10%,100%);
+    font-size: large;
+  }
+}

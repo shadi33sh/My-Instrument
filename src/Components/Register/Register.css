@@ -1,0 +1,61 @@
+.back2{
+    background-image: linear-gradient(rgba(0, 68, 72, 0.594),rgba(0, 0, 0, 0));
+    height: 1050px; 
+}
+.Register{
+transform: translate(70%,13%);
+height: 800px;
+background-image: linear-gradient(rgba(0, 78, 123, 0.162) , rgba(0, 154, 154, 0.484));
+width: 40%;
+border-radius: 70px;
+overflow: hidden;
+display: flex;
+margin-bottom:10% ;
+box-shadow: -20px 20px 60px 20px black;
+flex-direction: column;
+justify-content: space-around;
+}
+.Register h1{
+    text-align: center;
+    width: 100%;
+}
+.Register .form{
+    margin-top: -100px;
+    gap: 60px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.Register .form form{
+    width: 100%;
+    text-align: center;
+}
+.Register .form input{
+   margin: 20px;
+   height: 40px;
+   width: 80%;
+   background-color: black;
+   border-radius: 20px;
+   border: none;
+   color: white;
+   padding-left:14px ;
+}
+.Register p{
+    font-size: larger;
+}
+.Register button{
+    padding: 10px;
+    width: 100px;
+    background-image: linear-gradient(rgba(0, 84, 90, 0.231),rgba(0, 59, 63, 0.374));
+    font-size:18px ;
+    border-radius:10px ;
+    border: none;
+    box-shadow: 0px 10px 20px black;
+}
+@media screen and (max-width : 960px){
+    .Register{
+        width: 90%;
+        transform: translate(5%,18%);
+        margin-bottom: 50%;
+    }
+}
